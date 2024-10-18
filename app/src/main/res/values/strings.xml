@@ -5,4 +5,5 @@
     <string name="textNextBTN">Следующее фото</string>
     <string name="textByeTV">Спасибо за просмотр! До свидания!</string>
     <string name="textPrevPhoto">Предыдущее фото</string>
+    <string name="textExit">Выход</string>
 </resources>

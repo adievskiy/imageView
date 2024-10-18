@@ -48,6 +48,7 @@ class Photo : AppCompatActivity() {
                     index++
                     photoIM.setImageResource(photos[index])
                     prevBTN.isVisible = (index > 0)
+                    if (index == 4) { nextBTN.text = "Завершить" }
                 }
 
                 else -> {
