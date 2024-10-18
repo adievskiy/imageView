@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PhotoAlbum</string>
+    <string name="textHeadingMain">Вас приветствует альбом любимых фотографий</string>
+    <string name="textStartBTN">Начать</string>
+    <string name="textNextBTN">Следующее фото</string>
+    <string name="textByeTV">Спасибо за просмотр! До свидания!</string>
+    <string name="textPrevPhoto">Предыдущее фото</string>
+</resources>

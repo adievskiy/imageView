@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Photo">
+
+    <ImageView
+        android:id="@+id/photoIV"
+        android:layout_width="380sp"
+        android:layout_height="380sp"
+        android:layout_marginTop="50sp"
+        android:src="@drawable/potter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nextBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="@string/textNextBTN"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/prevBTN"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/photoIV" />
+
+    <Button
+        android:id="@+id/prevBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="@string/textPrevPhoto"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/nextBTN"
+        app:layout_constraintTop_toBottomOf="@id/photoIV" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
